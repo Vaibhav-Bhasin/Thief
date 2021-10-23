@@ -10,6 +10,10 @@ for i in range(50):
 
 
 
+
 Pin = input("Enter any four Digits :: ")
 Pin = list(Pin)
 from itertools import permutations
+g = permutations(Pin)
+for i in list(g):
+  print(i)
